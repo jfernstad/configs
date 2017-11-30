@@ -28,5 +28,13 @@ parse_git_branch() {
 
 export PS1='┌ \[\033[00;31m\][\u@\h]\[\033[00m\] \[\033[00;32m\][\w]\[\033[00m\] \[\033[01;33m\]$(parse_git_branch)\[\033[00m\]\n└ \$ '
 
+```
+
+This little snippet was fun to add to the prompt:
+
+```bash
+#`if [ \$? = 0 ]; then echo 👍 ; else echo 👎 ; fi`
+
+export PS1='┌ `if [ \$? = 0 ]; then echo 👍 ; else echo 👎 ; fi` \[\033[00;31m\][\u@\h]\[\033[00m\] \[\033[00;32m\][\w]\[\033[00m\] \[\033[01;33m\]$(parse_git_branch)\[\033[00m\]\n└ \$ '
 
 ```
