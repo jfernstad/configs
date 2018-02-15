@@ -6,6 +6,7 @@ Packages:
 - `Markdown All In One`, [yzhang](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 - `Atom bindings`, [MS-Vscode](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
 - `Pythob`, [MS-Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- `PlantUML`, [jebbs](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml#user-content-markdown-integrating)
 
 ```json
 {
